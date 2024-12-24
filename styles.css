@@ -1,2 +1,31 @@
+.moviePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height */
+  background-color: #f0f0f5; /* Light background color for contrast */
+  padding: 20px; /* Adds spacing around the content */
+}
+
+.moviePic {
+  height: 400px; /* Set a specific height for the poster */
+  width: auto; /* Maintain aspect ratio */
+  opacity: 0.9; /* Slight transparency for a soft effect */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  margin-bottom: 20px; /* Space between the image and description */
+}
+
+.movieDetail {
+  position: relative;
+  top: 0; /* No offset since the layout centers everything */
+  width: 80%; /* Limit the width for better readability */
+  text-align: center; /* Center the text horizontally */
+  font-size: 18px; /* Adjust font size for readability */
+  color: #333; /* Dark gray text color */
+  line-height: 1.6; /* Improve readability with line spacing */
+  font-family: 'Arial', sans-serif; /* Clean, professional font */
+}
 
 /* Your CSS Code here. */
